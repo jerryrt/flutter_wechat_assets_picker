@@ -439,6 +439,9 @@ class DefaultAssetPickerBuilderDelegate
           allowSpecialItemWhenEmpty: allowSpecialItemWhenEmpty,
         );
 
+
+  bool get isAppleOS => false;
+  
   /// Thumb size for the preview of images in the viewer.
   /// 预览时图片的缩略图大小
   ///
